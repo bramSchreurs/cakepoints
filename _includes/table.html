@@ -1,0 +1,35 @@
+<table>
+    <tbody>
+        <tr>
+            <th>
+                Recipient
+            </th>
+            <th>
+                Earned
+            </th>
+            <th>
+                Cashed In
+            </th>
+            <th>
+                Still Due
+            </th>
+        </tr>
+{% assign sorted = site.data.cakepoints | sort: 'earned' | reverse %}
+{% for member in sorted %}
+        <tr>
+            <td>
+                {{member.name}}
+            </td>
+            <td>
+                {{member.earned}}
+            </td>
+            <td>
+                {{member.paid}}
+            </td>
+            <td>
+                {{member.earned | minus: member.paid}}
+            </td>
+        </tr>
+{% endfor %}
+    </tbody>
+</table>
