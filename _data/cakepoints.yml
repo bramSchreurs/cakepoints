@@ -1,6 +1,6 @@
 - name: King Marty
   earned: 3
-  paid: 0
+  paid: 1
 - name: Vandenbergen Jasper
   earned: 6
   paid: 1
@@ -33,7 +33,7 @@
   paid: 1
 - name: Yolartiran Sinan
   earned: 6
-  paid: 3
+  paid: 4
 - name: Ausloos Lowie
   earned: 1
   paid: 1
@@ -45,7 +45,7 @@
   paid: 2
 - name: Van den Briel Abel
   earned: 11
-  paid: 4
+  paid: 5
 - name: De Bie Robbe
   earned: 1
   paid: 1
