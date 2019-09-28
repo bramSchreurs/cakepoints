@@ -51,7 +51,7 @@
   paid: 1
 - name: Peeters Karel
   earned: 6
-  paid: 2
+  paid: 3
 - name: Duthoit Joppe
   earned: 1
   paid: 1
@@ -69,10 +69,13 @@
   paid: 0
 - name: Dieter Dehaes
   earned: 14
-  paid: 1
+  paid: 2
 - name: Dries Eeckelo
   earned: 3
-  paid: 1
+  paid: 2
 - name: Milan Brouns
   earned: 1
   paid: 0
+- name: Jaro Deklerck
+  earned: 0
+  paid: 1
