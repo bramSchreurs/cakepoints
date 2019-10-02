@@ -79,3 +79,6 @@
 - name: Jaro Deklerck
   earned: 0
   paid: 1
+- name: Bram Schreurs
+  earned: 1
+  paid: 0
